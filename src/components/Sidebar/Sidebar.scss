@@ -1,0 +1,9 @@
+#sidebar-container {
+  width: 300px;
+  height: calc(100vh - 56px);
+  background-color: #111111;
+  padding: 12px 12px 12px 0;
+  a {
+    text-decoration: none;
+  }
+}

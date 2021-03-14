@@ -1,0 +1,43 @@
+#VideoCard {
+  //   padding: 10px;
+  //   color: white;
+  margin: 0;
+  width: 400px;
+  height: 360px;
+  background-color: black;
+  padding: 5px;
+  .img-container {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .profile-container {
+    display: flex;
+    margin-top: 10px;
+    .profile-photo {
+      width: 36px;
+      height: 36px;
+      background-color: white;
+
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+    }
+    .profile-info {
+      margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+      .title {
+        color: white;
+      }
+      .uploader,
+      .viewsDate {
+        color: #aaa;
+      }
+    }
+  }
+}

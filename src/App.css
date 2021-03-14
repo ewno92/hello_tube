@@ -1,3 +1,11 @@
 * {
   margin: 0;
+  box-sizing: border-box;
+}
+
+.home-page {
+  display: flex;
+}
+.trending-page {
+  display: flex;
 }

@@ -1,0 +1,42 @@
+#SideMenu {
+  * {
+    box-sizing: border-box;
+    // color: white;
+  }
+  width: 100%;
+  height: 40px;
+  //   background-color: yellow;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 24px;
+
+  .menu-icon {
+    width: 24px;
+    height: 24px;
+    color: white;
+  }
+  .name {
+    margin-left: 15px;
+    color: white;
+  }
+}
+
+#SideMenu.selected {
+  //   background-color: red;
+  .menu-icon {
+    color: red;
+  }
+
+  background-color: darkgray;
+}
+#SideMenu:hover {
+  //   background-color: rgb(104, 104, 104);
+  background-color: darkgray;
+  cursor: pointer;
+  .menu-icon {
+    color: red;
+  }
+  .name {
+    font-weight: 500;
+  }
+}
